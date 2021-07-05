@@ -49,6 +49,10 @@ const showCharacter = (character) => {
     characterDetail.appendChild(
         createParagraph("Specie: " + character.species)
     );
+
+    characterDetail.appendChild(
+        createParagraph("Gender: " + character.gender)
+    );
 };
 
 const createParagraph = text => {
