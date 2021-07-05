@@ -1,0 +1,17 @@
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid;
+    margin: 30px;
+}
